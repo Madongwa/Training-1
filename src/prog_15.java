@@ -1,9 +1,9 @@
-
+//to check if array is equal
 public class prog_15 {
 
 	public static void main(String[] args) {
 		int[] a= {10,20,30,40};
-		int[] b= {10,20,30,4};
+		int[] b= {10,20,30,4o};
 		boolean array=true;
 		if(a.length != b.length) {
 			array=false;
