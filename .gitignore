@@ -1,0 +1,13 @@
+# Compiled output
+bin/
+*.class
+
+# Eclipse local settings
+.metadata/
+.settings/
+*.launch
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
