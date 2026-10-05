@@ -1,4 +1,4 @@
-
+//number of time it repeated
 public class prog_13 {
 
 	public static void main(String[] args) {
