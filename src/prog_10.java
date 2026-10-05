@@ -5,12 +5,15 @@ public class prog_10 {
 		int[] arr= {10,20,30,40};
 		int n=arr.length;
 		int number=20;
+		boolean num=false;
 		for(int i=0; i<=n-1;i++) {
 			if(arr[i]==number) {
-				System.out.println("number is in: "+(i+1));
+				num=true;
+				System.out.println("value was found on: "+(i+1));
 			}
-			else
-				System.out.println("not found");
+		}
+		if(num==false) {
+			System.out.println("not found");
 		}
 
 	}
