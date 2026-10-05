@@ -3,7 +3,7 @@ public class prog_15 {
 
 	public static void main(String[] args) {
 		int[] a= {10,20,30,40};
-		int[] b= {10,20,30,4o};
+		int[] b= {10,20,30,40};
 		boolean array=true;
 		if(a.length != b.length) {
 			array=false;
